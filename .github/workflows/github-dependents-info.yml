@@ -40,6 +40,7 @@ jobs:
         # See documentation for variables details: https://github.com/nvuillam/github-dependents-info?tab=readme-ov-file#%EF%B8%8F-usage
         with:
           repo: squidfunk/mkdocs-material
+          outputrepo: ${{ github.repository }}
           markdownfile: docs/github-dependents-info.md
           badgemarkdownfile: README.md
           sort: stars
